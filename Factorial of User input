@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class factorial {
+   static int fact(int a){
+		if(a==1) {
+		   return 1;
+		}
+		int result=fact(a-1)*a;
+	    return result;
+		}
+	public static void main(String[]args) {
+		Scanner fa=new Scanner(System.in);
+		int a;
+		a=fa.nextInt();
+		System.out.println(fact(a));
+	}
+	
+}
+
+			
