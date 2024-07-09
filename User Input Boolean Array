@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class userinputbooleanarray {
+	public static void main(String[] args) {
+		Scanner boo=new Scanner(System.in);
+		int a=0;
+		int i;
+		a=boo.nextInt();
+		boolean[]tf= new boolean[a];
+		for(i=0;i<a;i++) {
+			tf[i]=boo.nextBoolean();
+		}
+		for(i=0;i<a;i++) {
+			System.out.print(tf[i]+",");
+		}
+	}	
+}
