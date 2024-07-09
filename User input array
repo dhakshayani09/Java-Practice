@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class userinputarray {
+
+	public static void main(String[] args) {
+		Scanner ob=new Scanner(System.in);
+		int a=0;
+		a=ob.nextInt();
+		int [] array=new int[a];
+		for(int i=0;i<a;i++) {
+				array[i]=ob.nextInt();
+		}
+		for( int i=0;i<a;i++) {
+				System.out.print(array[i]+" ");
+		}
+	}
+}
